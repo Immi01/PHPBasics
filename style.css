@@ -1,3 +1,11 @@
-.test{
+.HelloWorld{
     background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.scopeTest {
+    margin-top: 10px;
 }
