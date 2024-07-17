@@ -11,6 +11,9 @@
         <?php
             echo("<div class='blue'> Hello World </div>");
         ?>
+
+        <a href="./dbAccess/people.php">people </a>
+
     </div>
 
     <div class="scopeTest">
