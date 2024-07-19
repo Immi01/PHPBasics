@@ -26,6 +26,19 @@
         echo $row["id"] . " " . $row["name"] . " " . $row["lastname"] . "<br>";
     }
 
+    $mysqli->close();
+
     ?>
+
+    <br>
+    
+
+    <!-- use method="POST" to send the data in the HTTP request and not using the URL -->
+    <form action="person.php" method="GET">
+        <label for="id">row id</label>
+        <input type="text" name="id" id="id">
+        <input type="submit" value="send">
+    </form>
+
 </body>
 </html>

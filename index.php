@@ -105,6 +105,12 @@
         echo $myBattery->report();
         echo "<br>";
         echo $myBattery->getChargeTime();
+        echo "<br>";
+        echo "<br>";
+        // using $_SERVER["PHP_SELF"]; can result in a vulnerability for XSS
+        echo $_SERVER["PHP_SELF"] . "<br>";
+        // this is safe: PHPBasics/index.php/<script>alert("hacked");</script> will not execute the script in this case
+        echo htmlspecialchars($_SERVER["PHP_SELF"]);
 
         ?>
     </div>
