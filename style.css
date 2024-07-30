@@ -1,5 +1,9 @@
 .HelloWorld{
-    background-color: green;
+    background-color: greenyellow;
+}
+
+#ajax {
+    margin-left: 20px;
 }
 
 .blue {

@@ -15,17 +15,10 @@
             echo("<div class='blue'> Hello World </div>");
         ?>
 
-        <a href="./dbAccess/people.php">people </a>
+        <a href="./dbAccess/people.php">people</a>
+        <a href="./ajax/ajax.php" id="ajax">ajax</a>
 
     </div>
-
-    <input type="button" value="test" id="btn">
-
-    <script defer>
-        document.getElementById("btn").onclick = () => {
-            window.scrollBy(0, window.innerHeight);
-        }
-    </script>
 
     <div class="container">
         <?php
